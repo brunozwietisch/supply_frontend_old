@@ -1,0 +1,11 @@
+{
+  "buttons.new": "Novo",
+  "buttons.back": "Voltar",
+  "buttons.save": "Salvar",
+  "buttons.update": "Atualizar",
+  "buttons.clean": "Limpar",
+  "buttons.search": "Buscar",
+  "buttons.cancel": "Cancelar",
+  "buttons.not.cancel": "Não, Cancelar!",
+  "buttons.yes.delete": "Sim, Deletar!"
+}

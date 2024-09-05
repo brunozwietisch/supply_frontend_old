@@ -1,0 +1,29 @@
+.card,
+.box {
+  overflow-y: visible;
+
+  &::-webkit-scrollbar-thumb {
+    border: 6px solid transparent;
+  }
+
+  .card-body,
+  .box-body {
+    height: auto;
+    display: auto;
+    overflow: hidden;
+  }
+
+  .card-footer,
+  .box-footer {
+    transition: all 0.2s ease-out;
+    height: auto;
+  }
+}
+
+.bs-stepper .card .card-body {
+  overflow-x: auto;
+
+  &::-webkit-scrollbar-thumb {
+    border: 6px solid transparent;
+  }
+}

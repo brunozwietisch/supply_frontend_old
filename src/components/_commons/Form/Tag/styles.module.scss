@@ -1,0 +1,12 @@
+.tagContent {
+  color: white;
+  background-color: var(--bs-primary);
+  padding: 0.3rem 0 0.3rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  span {
+    padding: 0 1rem 0 4px;
+    font-weight: bold;
+  }
+}

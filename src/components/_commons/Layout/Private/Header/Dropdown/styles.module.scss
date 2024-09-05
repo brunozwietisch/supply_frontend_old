@@ -1,0 +1,26 @@
+#lightDropdown {
+  background-color: transparent;
+  border: transparent;
+  color: aliceblue;
+}
+
+.notificationDropdownItem {
+  max-width: 260px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150px;
+
+    p {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      margin: 0;
+    }
+  }
+}

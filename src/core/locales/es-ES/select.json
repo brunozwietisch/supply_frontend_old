@@ -1,0 +1,10 @@
+{
+  "select.option.defaut": "Seleccione una Opción",
+  "select.option.active": "Activo",
+  "select.option.inative": "Inactivo",
+  "select.option.to": "To",
+  "select.option.rework.flow": "Flujo de Reelaboración",
+  "select.option.rework.instruction": "Instrucción de Reelaboración",
+  "select.option.supplier.communication": "Comunicación con el proveedor",
+  "select.option.cc": "Cc"
+}

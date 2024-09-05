@@ -1,0 +1,20 @@
+button.btn {
+  &.btn-transparent:hover {
+    background-color: rgba(220, 220, 220, 0.4);
+  }
+
+  &.btn-light-outlined {
+    text-decoration: underline !important;
+  }
+
+  *:disabled {
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+  }
+}
+
+button:disabled .bs-stepper-header .step-trigger.disabled,
+.bs-stepper-header .step-trigger:disabled {
+  cursor: not-allowed !important;
+  pointer-events: auto !important;
+}

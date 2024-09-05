@@ -1,0 +1,212 @@
+// ----------- Imports -------------
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// ----------- Variables -------------
+$mainHeaderHeight: calc(3.5rem + 1px);
+$mainFooterHeight: 21px;
+$color-primary: #814038;
+$color-primary-focus: rgba(211, 75, 57, 0.5);
+// ----------- General -------------
+
+*,
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+body,
+html {
+  font-size: 0.875rem;
+}
+
+i {
+  font-family: inherit;
+}
+
+:not(pre) > code {
+  font-family: monospace;
+  background-color: #eee;
+  padding: 3px;
+  color: inherit;
+}
+
+blockquote {
+  border-left: 2px solid #ddd;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+  color: #aaa;
+  font-style: italic;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  margin: 1em 0px;
+  padding: 10px;
+  background-color: #eee;
+  white-space: pre-wrap;
+}
+
+// ----------- Components -------------
+
+.btn-group-md > .btn,
+.btn-md {
+  padding: 0.35rem 0.75rem !important;
+  font-size: 1rem !important;
+  border-radius: 0.25rem !important;
+}
+
+// Tabs
+.nav-tabs {
+  .nav-item .nav-link {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+
+  .nav-item .nav-item.show .nav-link,
+  .nav-item .nav-link.active,
+  .nav-item .nav-item.show .nav-link,
+  .nav-item .nav-link.active.nav-item-highlighted:hover {
+    border-color: #fff;
+    border-bottom: 3px solid #0078d4;
+    border-radius: 5px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+
+  .nav-item .nav-item.show .nav-link,
+  .nav-item .nav-link:hover {
+    border-color: transparent;
+    border-bottom: 3px solid #e3e3e3;
+  }
+}
+
+.nav-item-highlighted::after {
+  content: ' *';
+  color: #dd4b39;
+  font-weight: bold;
+}
+
+// Modals
+@media (min-width: 480px) {
+  .modal30w {
+    width: 30% !important;
+    max-width: none !important;
+  }
+
+  .modal40w {
+    width: 40% !important;
+    max-width: none !important;
+  }
+
+  .modal50w {
+    width: 50% !important;
+    max-width: none !important;
+  }
+
+  .modal60w {
+    width: 60% !important;
+    max-width: none !important;
+  }
+
+  .modal70w {
+    width: 70% !important;
+    max-width: none !important;
+  }
+
+  .modal80w {
+    width: 80% !important;
+    max-width: none !important;
+  }
+
+  .modal90w {
+    width: 90% !important;
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal30w {
+    width: 30%;
+  }
+
+  .modal40w {
+    width: 40%;
+  }
+
+  .modal50w {
+    width: 50%;
+  }
+
+  .modal60w {
+    width: 60%;
+  }
+
+  .modal70w {
+    width: 70%;
+  }
+
+  .modal80w {
+    width: 80%;
+  }
+
+  .modal90w {
+    width: 90%;
+  }
+}
+
+// Scrollbars
+div::-webkit-scrollbar {
+  width: 15px;
+}
+
+div::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: rgba(160, 169, 169, 0.6);
+
+  border-radius: 20px;
+  border: 4px solid transparent;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(160, 169, 169, 0.8);
+}
+
+// Tooltips
+.react-tooltip-display {
+  z-index: 999;
+}
+
+// Richtext
+div.slate-richtext-id div[contentEditable='false'] {
+  background-color: #f8f8f8;
+}
+
+button.btn.btn-primary.btn-login-with-office {
+  border-color: $color-primary;
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem $color-primary-focus;
+  }
+}
+
+.table-blanked {
+  &.table {
+    tfoot > tr > th,
+    tfoot > tr > td {
+      background: #e2eef1;
+      font-size: 12px;
+    }
+  }
+}
+
+.bg-orange {
+  background: #ff851b;
+}
+

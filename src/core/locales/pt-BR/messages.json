@@ -1,0 +1,13 @@
+{
+  "messages.info.year": "Informe o ano de vigência.",
+
+  "messages.store.success": "Cadastrado com sucesso!",
+  "messages.store.error": "Falha ao tentar registrar!",
+  "messages.update.success": "Atualizado com sucesso!",
+  "messages.update.error": "Falha ao tentar atualizar!",
+  "messages.exclude.success": "Excluido com sucesso!",
+  "messages.exclude.error": "Falha ao tentar excluir!",
+  "messages.unexpected.problem": "Sistema inconstante, volte mais tarde!",
+
+  "messages.confirm.delete": "Quer mesmo deletar esse registro?"
+}

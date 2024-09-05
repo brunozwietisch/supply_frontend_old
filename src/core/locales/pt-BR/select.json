@@ -1,0 +1,16 @@
+{
+  "select.option.defaut": "Selecione uma opção",
+  "select.option.active": "Ativo",
+  "select.option.inative": "Inativo",
+  "select.option.to": "To",
+  "select.option.rework.flow": "Fluxo de Retrabalho",
+  "select.option.rework.instruction": "Instrução de Retrabalho",
+  "select.option.supplier.communication": "Comunicação com Fornecedor",
+  "select.option.cc": "Cc",
+  "select.option.coverage": "Abrangência",
+  "select.option.gravity": "Gravidade",
+  "select.option.urgency": "Urgência",
+  "select.option.trend": "Tendência",
+  "select.option.dimension": "Dimensão",
+  "select.option.mass": "Massa"
+}
